@@ -39,11 +39,10 @@ public class BrowserStart {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("bro_sentry_bar_fake")));
     }
 
-    
+
     @After
     public void After() throws Exception {
         driver.quit();
     }
 
 }
-
