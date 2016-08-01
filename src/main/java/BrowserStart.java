@@ -22,7 +22,6 @@ public class BrowserStart {
     }
 
     @Test
-
     public void Test() throws Exception{
         driver.findElement(By.id("bro_sentry_bar_fake"));
     }
