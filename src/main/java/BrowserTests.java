@@ -45,6 +45,8 @@ public class BrowserTests {
 
     @Test
     public void SearchFromSuggest() throws Exception {
+        LogReader.logClear();
+
         try {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
         }
@@ -63,8 +65,7 @@ public class BrowserTests {
         List<WebElement> SuggestList = driver.findElements(By.id("bro_common_omnibox_text_layout"));
         SuggestList.get(SuggestList.size()-3).click();
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.findElement(By.id("com.yandex.browser:id/bro_omnibox_titlebar_button_reload"));
+        LogReader.findString("url opened");
     }
 
 
