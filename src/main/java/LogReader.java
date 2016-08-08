@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class LogReader {
     public static void logClear() throws IOException {
-        Process logcat = Runtime.getRuntime().exec("adb logcat -c");
+        Runtime.getRuntime().exec("adb logcat -c");
     }
 
     public static void findString(String log) throws IOException {
