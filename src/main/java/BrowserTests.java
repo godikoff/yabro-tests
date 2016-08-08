@@ -45,7 +45,7 @@ public class BrowserTests {
 
     @Test
     public void SearchFromSuggest() throws Exception {
-        LogReader.logClear();
+        LogReader.logCleaner();
 
         try {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
