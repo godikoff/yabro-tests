@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 
 public class LogReader {
-    public static void logClear() throws IOException {
+    public static void logCleaner() throws IOException {
         Runtime.getRuntime().exec("adb logcat -c");
     }
 
