@@ -1,25 +1,31 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.logging.LogEntry;
 
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class LogReader {
-    public static void logCleaner() throws IOException {
-        Runtime.getRuntime().exec("adb logcat -c");
-    }
+class LogReader {
 
-    public static void findString(String log) throws IOException {
-        Process logcat = Runtime.getRuntime().exec("adb logcat");
+    private List<LogEntry> logEntryList;
+    Date logTime = new Date();
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(logcat.getInputStream()));
-        String logString;
-        long endTime = System.currentTimeMillis()+15000;
-
-        while ((logString = reader.readLine()) != null && System.currentTimeMillis() < endTime) {
-            if (logString.contains(log)) {
-                return;
+    public void FindString(AppiumDriver driver, String logTag, String logString, WebElement trigger) throws Exception {
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
+        if (trigger.isDisplayed()) {
+            logEntryList = driver.manage().logs().get("logcat").getAll();
+            for (LogEntry logEntry : logEntryList) {
+                if (logEntry.getTimestamp() > logTime.getTime()) {
+                    Matcher matcher = pattern.matcher(logEntry.getMessage());
+                    if (matcher.find())
+                        return;
                 }
             }
-        throw new IOException(log + " not found");
+            throw new Exception(logString + " not found");
+        }
     }
 }

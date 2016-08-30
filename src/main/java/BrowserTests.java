@@ -8,12 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
 public class BrowserTests {
     private AppiumDriver driver;
+    LogReader logReader = new LogReader();
 
 
     @Before
@@ -27,7 +29,7 @@ public class BrowserTests {
     }
 
 
-    @Test
+    @Test // Запуск браузера
     public void BrowserStart() throws Exception{
         try {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
@@ -43,9 +45,8 @@ public class BrowserTests {
     }
 
 
-    @Test
+    @Test // Тап по 3 элементу саджеста и ожидание загрузки
     public void SearchFromSuggest() throws Exception {
-        LogReader.logCleaner();
 
         try {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
@@ -65,7 +66,8 @@ public class BrowserTests {
         List<WebElement> SuggestList = driver.findElements(By.id("bro_common_omnibox_text_layout"));
         SuggestList.get(SuggestList.size()-3).click();
 
-        LogReader.findString("url opened");
+        WebElement webView = driver.findElement(By.className("android.webkit.WebView"));
+        logReader.FindString(driver, "Ya:ReportManager", "url opened", webView);
     }
 
 
