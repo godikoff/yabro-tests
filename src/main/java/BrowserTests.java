@@ -84,7 +84,7 @@ public class BrowserTests {
 
 
     @Test /* Тап по 3 элементу саджеста и ожидание загрузки c PageObject */
-    public void SearchFromSuggestWithPajeObject() throws Exception {
+    public void SearchFromSuggestWithPageObject() throws Exception {
         // Старт браузера
         BrowserStart();
         // Тап в омнибокс
