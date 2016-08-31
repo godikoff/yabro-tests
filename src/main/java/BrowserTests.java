@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class BrowserTests {
+public class BrowserTests extends yabroObjects {
     private AppiumDriver driver;
     LogReader logReader = new LogReader();
 
@@ -63,7 +63,6 @@ public class BrowserTests {
 
     @Test /* Тап по 3 элементу саджеста и ожидание загрузки */
     public void SearchFromSuggest() throws Exception {
-
         // Старт браузера
         BrowserStart();
         // Тап в омнибокс
@@ -77,6 +76,21 @@ public class BrowserTests {
         Lists.reverse(suggestList).get(2).click();
         // Вызов парсера логов (с передачей в него триггера, после которого будут получены логи)
         WebElement webView = driver.findElement(By.className("android.webkit.WebView"));
+        logReader.FindString(driver, "Ya:ReportManager", "url opened", webView);
+    }
+
+
+    @Test /* Тап по 3 элементу саджеста и ожидание загрузки c PageObject (но чё-то оно не работает) */
+    public void SearchFromSuggestPajeObject() throws Exception {
+        // Старт браузера
+        BrowserStart();
+        // Тап в омнибокс
+        omnibox.click();
+        // Ввод в онибокс строки
+        omniboxTextField.sendKeys("qwe");
+        // Получение списка элементов саджеста и тап по 3 строке
+        suggestList.get(suggestList.size()-3).click();
+        // Вызов парсера логов (с передачей в него триггера, после которого будут получены логи)
         logReader.FindString(driver, "Ya:ReportManager", "url opened", webView);
     }
 
