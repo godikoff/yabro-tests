@@ -13,9 +13,10 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class BrowserTests extends yabroObjects {
+public class BrowserTests {
     private AppiumDriver driver;
-    LogReader logReader = new LogReader();
+    private LogReader logReader;
+    private YabroObjects yabroObjects;
 
 
     @Before
@@ -26,6 +27,8 @@ public class BrowserTests extends yabroObjects {
         capabilities.setCapability("appActivity", ".YandexBrowserMainActivity");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        logReader = new LogReader();
+        yabroObjects = new YabroObjects(driver);
     }
 
 
@@ -80,18 +83,18 @@ public class BrowserTests extends yabroObjects {
     }
 
 
-    @Test /* Тап по 3 элементу саджеста и ожидание загрузки c PageObject (но чё-то оно не работает) */
-    public void SearchFromSuggestPajeObject() throws Exception {
+    @Test /* Тап по 3 элементу саджеста и ожидание загрузки c PageObject */
+    public void SearchFromSuggestWithPajeObject() throws Exception {
         // Старт браузера
         BrowserStart();
         // Тап в омнибокс
-        omnibox.click();
+        yabroObjects.omnibox.click();
         // Ввод в онибокс строки
-        omniboxTextField.sendKeys("qwe");
+        yabroObjects.omniboxTextField.sendKeys("qwe");
         // Получение списка элементов саджеста и тап по 3 строке
-        suggestList.get(suggestList.size()-3).click();
+        yabroObjects.suggestList().get(2).click();
         // Вызов парсера логов (с передачей в него триггера, после которого будут получены логи)
-        logReader.FindString(driver, "Ya:ReportManager", "url opened", webView);
+        logReader.FindString(driver, "Ya:ReportManager", "url opened", yabroObjects.webView);
     }
 
 
