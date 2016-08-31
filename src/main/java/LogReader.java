@@ -17,13 +17,13 @@ class LogReader {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
 
-        // Поиск в логах, если триггер (android.webkit.WebView) найден (срабатывает в 90% случаев)
+        // РџРѕРёСЃРє РІ Р»РѕРіР°С…, РµСЃР»Рё С‚СЂРёРіРіРµСЂ (android.webkit.WebView) РЅР°Р№РґРµРЅ (СЃСЂР°Р±Р°С‚С‹РІР°РµС‚ РІ 90% СЃР»СѓС‡Р°РµРІ)
         if (trigger.isDisplayed()) {
             if (Parser(driver, pattern)) {
                 return;
             }
         }
-        // Остальные 10%, при которых url opened логируется позже отображения триггера (android.webkit.WebView)
+        // РћСЃС‚Р°Р»СЊРЅС‹Рµ 10%, РїСЂРё РєРѕС‚РѕСЂС‹С… url opened Р»РѕРіРёСЂСѓРµС‚СЃСЏ РїРѕР·Р¶Рµ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ С‚СЂРёРіРіРµСЂР° (android.webkit.WebView)
         Thread.sleep(5000);
         if (Parser(driver, pattern)) {
             return;
@@ -31,7 +31,7 @@ class LogReader {
         throw new Exception(logString + " not found");
     }
 
-    // Парсер логов (построчный перебор и сравнение с паттерном)
+    // РџР°СЂСЃРµСЂ Р»РѕРіРѕРІ (РїРѕСЃС‚СЂРѕС‡РЅС‹Р№ РїРµСЂРµР±РѕСЂ Рё СЃСЂР°РІРЅРµРЅРёРµ СЃ РїР°С‚С‚РµСЂРЅРѕРј)
     private boolean Parser(AppiumDriver driver, Pattern pattern) {
         logEntryList = driver.manage().logs().get("logcat").getAll();
         for (LogEntry logEntry : logEntryList) {

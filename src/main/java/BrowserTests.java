@@ -29,53 +29,53 @@ public class BrowserTests {
     }
 
 
-    @Test /* Запуск браузера */
+    @Test /* Р—Р°РїСѓСЃРє Р±СЂР°СѓР·РµСЂР° */
     public void BrowserStart() throws Exception{
-        // Поиск омнибокса
+        // РџРѕРёСЃРє РѕРјРЅРёР±РѕРєСЃР°
         try {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
         }
         catch (Exception e)
         {
-            // Если онибокс не найден, поиск кнопки закрытия туториала
+            // Р•СЃР»Рё РѕРЅРёР±РѕРєСЃ РЅРµ РЅР°Р№РґРµРЅ, РїРѕРёСЃРє РєРЅРѕРїРєРё Р·Р°РєСЂС‹С‚РёСЏ С‚СѓС‚РѕСЂРёР°Р»Р°
             try {
                 driver.findElement(By.id("activity_tutorial_close_button"));
             }
-            // Если кнопка закрытия туториала не найдена, прохождение велком скрина
+            // Р•СЃР»Рё РєРЅРѕРїРєР° Р·Р°РєСЂС‹С‚РёСЏ С‚СѓС‚РѕСЂРёР°Р»Р° РЅРµ РЅР°Р№РґРµРЅР°, РїСЂРѕС…РѕР¶РґРµРЅРёРµ РІРµР»РєРѕРј СЃРєСЂРёРЅР°
             catch (Exception e1) {
                 WebElement welcomeScreenCheckbox = driver.findElement(By.id("import_checkbox_mark"));
                 welcomeScreenCheckbox.click();
                 WebElement welcomeScreenNextButton = driver.findElement(By.id("activity_import_next_button"));
                 welcomeScreenNextButton.click();
             }
-            // Тап на кнопку закрытия туториала
+            // РўР°Рї РЅР° РєРЅРѕРїРєСѓ Р·Р°РєСЂС‹С‚РёСЏ С‚СѓС‚РѕСЂРёР°Р»Р°
             finally {
                 WebElement tutorialCloseButton = driver.findElement(By.id("activity_tutorial_close_button"));
                 tutorialCloseButton.click();
             }
         }
-        // Поиск омнибокса
+        // РџРѕРёСЃРє РѕРјРЅРёР±РѕРєСЃР°
         finally {
             driver.findElement(By.id(("bro_sentry_bar_fake_text")));
         }
     }
 
 
-    @Test /* Тап по 3 элементу саджеста и ожидание загрузки */
+    @Test /* РўР°Рї РїРѕ 3 СЌР»РµРјРµРЅС‚Сѓ СЃР°РґР¶РµСЃС‚Р° Рё РѕР¶РёРґР°РЅРёРµ Р·Р°РіСЂСѓР·РєРё */
     public void SearchFromSuggest() throws Exception {
 
-        // Старт браузера
+        // РЎС‚Р°СЂС‚ Р±СЂР°СѓР·РµСЂР°
         BrowserStart();
-        // Тап в омнибокс
+        // РўР°Рї РІ РѕРјРЅРёР±РѕРєСЃ
         WebElement omnibox = driver.findElement(By.id(("bro_sentry_bar_fake_text")));
         omnibox.click();
-        // Ввод в онибокс строки
+        // Р’РІРѕРґ РІ РѕРЅРёР±РѕРєСЃ СЃС‚СЂРѕРєРё
         WebElement omniboxTextField = driver.findElement(By.id("bro_sentry_bar_input_edittext"));
         omniboxTextField.sendKeys("qwe");
-        // Получение списка элементов саджеста и тап по 3 строке
+        // РџРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° СЌР»РµРјРµРЅС‚РѕРІ СЃР°РґР¶РµСЃС‚Р° Рё С‚Р°Рї РїРѕ 3 СЃС‚СЂРѕРєРµ
         List<WebElement> suggestList = driver.findElements(By.id("bro_common_omnibox_text_layout"));
         Lists.reverse(suggestList).get(2).click();
-        // Вызов парсера логов (с передачей в него триггера, после которого будут получены логи)
+        // Р’С‹Р·РѕРІ РїР°СЂСЃРµСЂР° Р»РѕРіРѕРІ (СЃ РїРµСЂРµРґР°С‡РµР№ РІ РЅРµРіРѕ С‚СЂРёРіРіРµСЂР°, РїРѕСЃР»Рµ РєРѕС‚РѕСЂРѕРіРѕ Р±СѓРґСѓС‚ РїРѕР»СѓС‡РµРЅС‹ Р»РѕРіРё)
         WebElement webView = driver.findElement(By.className("android.webkit.WebView"));
         logReader.FindString(driver, "Ya:ReportManager", "url opened", webView);
     }
