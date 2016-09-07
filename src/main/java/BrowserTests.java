@@ -36,30 +36,27 @@ public class BrowserTests {
     public void BrowserStart() throws Exception{
         // Поиск омнибокса
         try {
-            driver.findElement(By.id(("bro_sentry_bar_fake_text")));
+            yabroObjects.omnibox.isDisplayed();
         }
         catch (Exception e)
         {
             // Если онибокс не найден, поиск кнопки закрытия туториала
             try {
-                driver.findElement(By.id("activity_tutorial_close_button"));
+                yabroObjects.tutorialCloseButton.isDisplayed();
             }
             // Если кнопка закрытия туториала не найдена, прохождение велком скрина
             catch (Exception e1) {
-                WebElement welcomeScreenCheckbox = driver.findElement(By.id("import_checkbox_mark"));
-                welcomeScreenCheckbox.click();
-                WebElement welcomeScreenNextButton = driver.findElement(By.id("activity_import_next_button"));
-                welcomeScreenNextButton.click();
+                yabroObjects.welcomeScreenCheckbox.click();
+                yabroObjects.welcomeScreenNextButton.click();
             }
             // Тап на кнопку закрытия туториала
             finally {
-                WebElement tutorialCloseButton = driver.findElement(By.id("activity_tutorial_close_button"));
-                tutorialCloseButton.click();
+                yabroObjects.tutorialCloseButton.click();
             }
         }
         // Поиск омнибокса
         finally {
-            driver.findElement(By.id(("bro_sentry_bar_fake_text")));
+            yabroObjects.omnibox.isDisplayed();
         }
     }
 

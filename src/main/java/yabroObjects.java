@@ -17,10 +17,17 @@ public class YabroObjects {
     @AndroidFindBy(id = "bro_sentry_bar_fake_text")
     public WebElement omnibox;
 
+    @AndroidFindBy(id = "activity_tutorial_close_button")
+    public WebElement tutorialCloseButton;
+
+    @AndroidFindBy(id = "import_checkbox_mark")
+    public WebElement welcomeScreenCheckbox;
+
+    @AndroidFindBy(id = "activity_import_next_button")
+    public WebElement welcomeScreenNextButton;
 
     @AndroidFindBy(id = "bro_sentry_bar_input_edittext")
     public WebElement omniboxTextField;
-
 
     @AndroidFindBy(id = "bro_common_omnibox_text_layout")
     public List<WebElement> reversedSuggestList;
