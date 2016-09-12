@@ -1,14 +1,22 @@
 import com.google.common.collect.Lists;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.io.File;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -17,7 +25,7 @@ public class BrowserTests {
     private AppiumDriver driver;
     private LogReader logReader;
     private YabroObjects yabroObjects;
-
+    private static Date dateTime = new Date();
 
     @Before
     public void Before() throws Exception{
@@ -30,6 +38,27 @@ public class BrowserTests {
         logReader = new LogReader();
         yabroObjects = new YabroObjects(driver);
     }
+
+
+    @Rule
+    public TestWatcher testWatcher = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            String dateTimeFormated = new SimpleDateFormat("yyyy-MM-dd_hh-mm-ss").format(dateTime);
+            String screenshotName = description.getMethodName() + ".png";
+            try {
+                File scFile = driver.getScreenshotAs(OutputType.FILE);
+                FileUtils.copyFile(scFile, new File("screenshots/" + dateTimeFormated + "/" + screenshotName));
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+        }
+
+        @Override
+        protected void finished(Description description) {
+            driver.quit();
+        }
+    };
 
 
     @Test /* Запуск браузера */
@@ -95,8 +124,18 @@ public class BrowserTests {
     }
 
 
-    @After
-    public void After() throws Exception {
-        driver.quit();
+    @Test /* Фейл тапа по 3 элементу саджеста и ожидания загрузки c PageObject */
+    public void FailingSearchFromSuggestWithPageObject() throws Exception {
+        // Старт браузера
+        BrowserStart();
+        // Тап в омнибокс
+        yabroObjects.omnibox.click();
+        // Ввод в онибокс строки
+        yabroObjects.omniboxTextField.sendKeys("qwe34vsd");
+        // Получение списка элементов саджеста и тап по 3 строке
+        yabroObjects.suggestList().get(2).click();
+        // Вызов парсера логов (с передачей в него триггера, после которого будут получены логи)
+        logReader.FindString(driver, "Ya:ReportManager", "url opened", yabroObjects.webView);
     }
+
 }
