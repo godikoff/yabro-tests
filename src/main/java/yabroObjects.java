@@ -35,7 +35,4 @@ public class YabroObjects {
         List<WebElement> suggestList = Lists.reverse(reversedSuggestList);
         return suggestList;
     }
-
-    @AndroidFindBy(className = "android.webkit.WebView")
-    public WebElement webView;
 }

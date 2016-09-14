@@ -12,7 +12,7 @@ class LogReader {
     private List<LogEntry> logEntryList;
     Date logTime = new Date();
 
-    public void FindString(AppiumDriver driver, String logTag, String logString, WebElement trigger) throws Exception {
+    public void FindString(AppiumDriver driver, String logTag, String logString) throws Exception {
 
         Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
 
