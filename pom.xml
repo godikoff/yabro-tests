@@ -12,6 +12,7 @@
         <allure.version>1.4.23.HOTFIX1</allure.version>
         <aspectj.version>1.8.9</aspectj.version>
         <compiler.version>1.7</compiler.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -48,6 +49,7 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/test/java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -71,19 +73,6 @@
                         <version>${aspectj.version}</version>
                     </dependency>
                 </dependencies>
-            </plugin>
-
-            <!--Needed only to show reports locally. Run jetty:run and
-            open localhost:8080 to show the report-->
-            <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.2.10.v20150310</version>
-                <configuration>
-                    <webAppSourceDirectory>${project.build.directory}/site/allure-maven-plugin</webAppSourceDirectory>
-                    <stopKey>stop</stopKey>
-                    <stopPort>1234</stopPort>
-                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -1,5 +1,4 @@
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntry;
 
 import java.util.Date;
@@ -12,16 +11,16 @@ class LogReader {
     private List<LogEntry> logEntryList;
     Date logTime = new Date();
 
-    public void FindString(AppiumDriver driver, String logTag, String logString) throws Exception {
+    public boolean FindString(AppiumDriver driver, String logTag, String logString) throws Exception {
 
         Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
 
         for (int i=0;i<15;i++) {
             if (Parser(driver, pattern))
-                return;
+                return true;
             Thread.sleep(1000);
         }
-        throw new Exception(logString + " not found");
+        return false;
     }
 
     // Парсер логов (построчный перебор и сравнение с паттерном)
@@ -30,10 +29,8 @@ class LogReader {
         for (LogEntry logEntry : logEntryList) {
             if (logEntry.getTimestamp() > logTime.getTime()) {
                 Matcher matcher = pattern.matcher(logEntry.getMessage());
-                if (matcher.find()) ;
-                {
+                if (matcher.find())
                     return true;
-                }
             }
         }
         return false;
