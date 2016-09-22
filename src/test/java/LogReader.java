@@ -8,10 +8,15 @@ import java.util.regex.Pattern;
 
 class LogReader {
 
+    private AppiumDriver driver;
     private List<LogEntry> logEntryList;
     Date logTime = new Date();
 
-    public boolean FindString(AppiumDriver driver, String logTag, String logString) throws Exception {
+    public LogReader(AppiumDriver driver) {
+        this.driver = driver;
+    }
+
+    public boolean FindString(String logTag, String logString) throws Exception {
 
         Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
 
@@ -23,7 +28,6 @@ class LogReader {
         return false;
     }
 
-    // Парсер логов (построчный перебор и сравнение с паттерном)
     private boolean Parser(AppiumDriver driver, Pattern pattern) {
         logEntryList = driver.manage().logs().get("logcat").getAll();
         for (LogEntry logEntry : logEntryList) {
