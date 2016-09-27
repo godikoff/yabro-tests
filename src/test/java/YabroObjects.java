@@ -9,12 +9,15 @@ import java.util.List;
 
 public class YabroObjects {
 
-    public YabroObjects(AppiumDriver driver){
+    public YabroObjects(AppiumDriver driver) {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     @AndroidFindBy(id = "bro_sentry_bar_fake_text")
-    public WebElement omnibox;
+    public WebElement omniboxInNewTab;
+
+    @AndroidFindBy(id = "bro_omnibar_address_title_view")
+    public WebElement omniboxInCurrentTab;
 
     @AndroidFindBy(id = "activity_tutorial_close_button")
     public WebElement tutorialCloseButton;
@@ -30,4 +33,7 @@ public class YabroObjects {
 
     @AndroidFindBy(id = "bro_common_omnibox_text_layout")
     public List<WebElement> reversedSuggestList;
+
+    @AndroidFindBy(id = "bro_suggest_search_history")
+    public WebElement historySearchSuggest;
 }
