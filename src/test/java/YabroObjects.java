@@ -1,6 +1,7 @@
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -36,4 +37,9 @@ public class YabroObjects {
 
     @AndroidFindBy(id = "bro_suggest_search_history")
     public WebElement historySearchSuggest;
+
+    @AndroidFindBy(xpath = "//android.widget.RelativeLayout[contains(@resource-id,'bro_suggest_search_history')]/" +
+            "android.widget.RelativeLayout[contains(@resource-id,'bro_common_omnibox_text_layout')]/" +
+            "android.widget.TextView[contains(@resource-id,'bro_common_omnibox_text')]")
+    public WebElement historySearchSuggestText;
 }

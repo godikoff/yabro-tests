@@ -81,6 +81,6 @@ public class YabroTests {
         yabroSteps.inputAndSendText(yabroObjects.omniboxTextField, "cat");
         yabroSteps.click(yabroObjects.omniboxInCurrentTab);
         yabroSteps.inputText(yabroObjects.omniboxTextField, "cat");
-        yabroSteps.shouldContainColors(yabroObjects.historySearchSuggest, historySuggestColor1, historySuggestColor2);
+        yabroSteps.shouldContainColors(yabroObjects.historySearchSuggestText, historySuggestColor1, historySuggestColor2);
     }
 }
