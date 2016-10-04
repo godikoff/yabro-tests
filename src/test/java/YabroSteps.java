@@ -28,8 +28,7 @@ public class YabroSteps {
 
     @Attachment
     public byte[] saveScreenshot() {
-        byte[] screenshot = driver.getScreenshotAs(OutputType.BYTES);
-        return screenshot;
+        return driver.getScreenshotAs(OutputType.BYTES);
     }
 
     @Step("Tap on {0}")

@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 class LogReader {
 
     private AppiumDriver driver;
-    private List<LogEntry> logEntryList;
     Date logTime = new Date();
 
     public LogReader(AppiumDriver driver) {
@@ -29,7 +28,7 @@ class LogReader {
     }
 
     private boolean Parser(AppiumDriver driver, Pattern pattern) {
-        logEntryList = driver.manage().logs().get("logcat").getAll();
+        List<LogEntry> logEntryList = driver.manage().logs().get("logcat").getAll();
         for (LogEntry logEntry : logEntryList) {
             if (logEntry.getTimestamp() > logTime.getTime()) {
                 Matcher matcher = pattern.matcher(logEntry.getMessage());
