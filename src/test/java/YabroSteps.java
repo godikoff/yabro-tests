@@ -1,5 +1,6 @@
 import com.google.common.collect.Lists;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.annotations.Attachment;
@@ -15,10 +16,10 @@ import static org.hamcrest.Matchers.*;
 public class YabroSteps {
     private LogReader logReader;
     private YabroObjects yabroObjects;
-    private AppiumDriver driver;
+    private AndroidDriver driver;
     private ElementScreenshotCollector elementScreenshotCollector;
 
-    public YabroSteps(AppiumDriver driver) {
+    public YabroSteps(AndroidDriver driver) {
         this.driver = driver;
         logReader = new LogReader(driver);
         yabroObjects = new YabroObjects(driver);
@@ -43,7 +44,8 @@ public class YabroSteps {
 
     @Step("Input and send text: {1} in {0}")
     public void inputAndSendText(WebElement element, String textString){
-        element.sendKeys(textString+"\n");
+        element.sendKeys(textString);
+        driver.pressKeyCode(66);
     }
 
     @Step("Tap on {0}th element in suggest")

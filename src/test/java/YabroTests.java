@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class YabroTests {
-    private AppiumDriver driver;
+    private AndroidDriver driver;
     private YabroObjects yabroObjects;
     private YabroSteps yabroSteps;
 
