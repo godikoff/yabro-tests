@@ -9,22 +9,20 @@ import java.awt.*;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.both;
-import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.Matchers.*;
 
 
 public class YabroSteps {
     private LogReader logReader;
     private YabroObjects yabroObjects;
     private AppiumDriver driver;
-    private PixelCollector pixelCollector;
+    private ElementScreenshotCollector elementScreenshotCollector;
 
     public YabroSteps(AppiumDriver driver) {
         this.driver = driver;
         logReader = new LogReader(driver);
         yabroObjects = new YabroObjects(driver);
-        pixelCollector = new PixelCollector(driver);
-
+        elementScreenshotCollector = new ElementScreenshotCollector(driver);
     }
 
     @Attachment
@@ -66,12 +64,12 @@ public class YabroSteps {
 
     @Step("{0} has more than {1} element")
     public void hasMoreElementsThan(List<WebElement> list, int count) {
-        assertThat(list + " size equals or less than " + count, list.size()>count);
+        assertThat(list + " size equals or less than " + count, list, hasSize(greaterThan(count)));
     }
 
     @Step("{0} should contain {1} and {2} colors")
     public void shouldContainColors(WebElement element, Color color1, Color color2) throws Exception {
-        assertThat(color1 + " and " + color2 + " not found in " + element, pixelCollector.collector(element), both(hasItem(color1)).and(hasItem(color2)));
+        assertThat(color1 + " and " + color2 + " not found in " + element, elementScreenshotCollector.collect(element), both(CustomMatchers.hasColor(color1)).and(CustomMatchers.hasColor(color2)));
     }
 
     @Step("Start browser")
