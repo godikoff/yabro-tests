@@ -1,6 +1,6 @@
 import com.google.common.collect.Lists;
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.annotations.Attachment;
@@ -37,7 +37,7 @@ public class YabroSteps {
     }
 
     @Step("Input text: {1} in {0}")
-         public void inputText(WebElement element, String textString){
+        public void inputText(WebElement element, String textString){
         element.sendKeys(textString);
     }
 
@@ -49,7 +49,7 @@ public class YabroSteps {
 
     @Step("Tap on {0}th element in suggest")
     public void clickOnSuggest(int suggestIndex){
-        List<WebElement> suggestList = Lists.reverse(yabroObjects.reversedSuggestList);
+        List<AndroidElement> suggestList = Lists.reverse(yabroObjects.reversedSuggestList);
         suggestList.get(suggestIndex-1).click();
     }
 
@@ -58,19 +58,29 @@ public class YabroSteps {
         assertThat("\"" + logTag + "\" and \"" + logString + "\"" + " not found in logs", logReader.FindString(logTag, logString));
     }
 
-    @Step("Element should be displayed")
+    @Step("{0} should be displayed")
     public void shouldBeDisplayed(WebElement element) {
         assertThat(element + " not found", element.isDisplayed());
     }
 
+    @Step("{0} should not be displayed")
+    public void shouldNotBeDisplayed(WebElement element) {
+        assertThat(element + " found", !element.isDisplayed());
+    }
+
     @Step("{0} has more than {1} element")
-    public void hasMoreElementsThan(List<WebElement> list, int count) {
+    public void hasMoreElementsThan(List<AndroidElement> list, int count) {
         assertThat(list + " size equals or less than " + count, list, hasSize(greaterThan(count)));
     }
 
     @Step("{0} should contain {1} and {2} colors")
     public void shouldContainColors(WebElement element, Color color1, Color color2) throws Exception {
         assertThat(color1 + " and " + color2 + " not found in " + element, elementScreenshotCollector.collect(element), both(CustomMatchers.hasColor(color1)).and(CustomMatchers.hasColor(color2)));
+    }
+
+    @Step("{0} should contain text: {1}")
+    public void shouldContainText(WebElement element, String text) {
+        assertThat(text + " not found", element.getText().contains(text));
     }
 
     @Step("Start browser")

@@ -1,44 +1,39 @@
-import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 public class YabroObjects {
-
-    public YabroObjects(AppiumDriver driver) {
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+    public YabroObjects(WebDriver driver) {
+        PageFactory.initElements(new AppiumFieldDecorator(driver, 5, TimeUnit.SECONDS), this);
     }
 
+    public HistorySuggest historySuggest;
+    public WizardSuggest wizardSuggest;
+
     @AndroidFindBy(id = "bro_sentry_bar_fake_text")
-    public WebElement omniboxInNewTab;
+    public AndroidElement omniboxInNewTab;
 
     @AndroidFindBy(id = "bro_omnibar_address_title_view")
-    public WebElement omniboxInCurrentTab;
+    public AndroidElement omniboxInCurrentTab;
 
     @AndroidFindBy(id = "activity_tutorial_close_button")
-    public WebElement tutorialCloseButton;
+    public AndroidElement tutorialCloseButton;
 
     @AndroidFindBy(id = "import_checkbox_mark")
-    public WebElement welcomeScreenCheckbox;
+    public AndroidElement welcomeScreenCheckbox;
 
     @AndroidFindBy(id = "activity_import_next_button")
-    public WebElement welcomeScreenNextButton;
+    public AndroidElement welcomeScreenNextButton;
 
     @AndroidFindBy(id = "bro_sentry_bar_input_edittext")
-    public WebElement omniboxTextField;
+    public AndroidElement omniboxTextField;
 
     @AndroidFindBy(id = "bro_common_omnibox_text_layout")
-    public List<WebElement> reversedSuggestList;
-
-    @AndroidFindBy(id = "bro_suggest_search_history")
-    public WebElement historySearchSuggest;
-
-    @AndroidFindBy(xpath = "//android.widget.RelativeLayout[contains(@resource-id,'bro_suggest_search_history')]/" +
-            "android.widget.RelativeLayout[contains(@resource-id,'bro_common_omnibox_text_layout')]/" +
-            "android.widget.TextView[contains(@resource-id,'bro_common_omnibox_text')]")
-    public WebElement historySearchSuggestText;
+    public List<AndroidElement> reversedSuggestList;
 }

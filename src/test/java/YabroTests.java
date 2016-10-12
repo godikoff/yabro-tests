@@ -1,4 +1,3 @@
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Before;
 import org.junit.Rule;
@@ -10,7 +9,6 @@ import ru.yandex.qatools.allure.annotations.Title;
 
 import java.awt.*;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 
 public class YabroTests {
@@ -25,7 +23,6 @@ public class YabroTests {
         capabilities.setCapability("appPackage", "com.yandex.browser");
         capabilities.setCapability("appActivity", ".YandexBrowserMainActivity");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         yabroObjects = new YabroObjects(driver);
         yabroSteps = new YabroSteps(driver);
         yabroSteps.browserStart();
@@ -81,6 +78,15 @@ public class YabroTests {
         yabroSteps.inputAndSendText(yabroObjects.omniboxTextField, "cat");
         yabroSteps.click(yabroObjects.omniboxInCurrentTab);
         yabroSteps.inputText(yabroObjects.omniboxTextField, "cat");
-        yabroSteps.shouldContainColors(yabroObjects.historySearchSuggestText, historySuggestColor1, historySuggestColor2);
+        yabroSteps.shouldContainColors(yabroObjects.historySuggest.suggestText, historySuggestColor1, historySuggestColor2);
+    }
+
+    @Title("Проверка текста и элементов в колдунщике саджеста")
+    @Test
+    public void CheckTextInWizardSuggest() throws Exception {
+        yabroSteps.click(yabroObjects.omniboxInNewTab);
+        yabroSteps.inputText(yabroObjects.omniboxTextField, "cat");
+        yabroSteps.shouldNotBeDisplayed(yabroObjects.historySuggest.clockIcon);
+        yabroSteps.shouldContainText(yabroObjects.wizardSuggest.wizardText, "°C");
     }
 }

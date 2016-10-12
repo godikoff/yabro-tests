@@ -1,5 +1,4 @@
 import io.appium.java_client.AppiumDriver;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
