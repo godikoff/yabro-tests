@@ -1,14 +1,15 @@
+import io.appium.java_client.android.AndroidElement;
 import org.hamcrest.FeatureMatcher;
 import org.hamcrest.Matcher;
 
-import java.awt.*;
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 import static org.hamcrest.CoreMatchers.is;
 
-public class CustomMatchers {
+public class CustomMatchers extends AndroidElement{
     public static Matcher<BufferedImage> hasColor(final Color expectedColor) {
-        return new FeatureMatcher<BufferedImage, Boolean>(is(true), "Color " + expectedColor, "Color " + expectedColor) {
+        return new FeatureMatcher<BufferedImage, Boolean>(is(true), "Color " + expectedColor, "Color " + expectedColor){
             @Override
             protected Boolean featureValueOf(BufferedImage elementScreenshot) {
                 return findColor(elementScreenshot, expectedColor);

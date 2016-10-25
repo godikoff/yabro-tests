@@ -22,7 +22,8 @@ public class ElementScreenshotCollector {
         int elementWidth = element.getSize().getWidth();
         int elementHeight = element.getSize().getHeight();
 
-        //ImageIO.write(fullScreenshot.getSubimage(elementLocation.getX(), elementLocation.getY(), elementWidth, elementHeight), "png", scFile);
+        //ImageIO.write(fullScreenshot.getSubimage(elementLocation.getX(), elementLocation.getY(), elementWidth,
+        //        elementHeight), "png", scFile);
         //FileUtils.copyFile(scFile, new File("screenshots/screen.png"));
 
         return fullScreenshot.getSubimage(elementLocation.getX(), elementLocation.getY(), elementWidth, elementHeight);

@@ -15,19 +15,19 @@ class LogReader {
         this.driver = driver;
     }
 
-    public boolean FindString(String logTag, String logString) throws Exception {
+    public boolean findString(String logTag, String logString) throws Exception {
 
         Pattern pattern = Pattern.compile(logTag + "(.*)" + logString);
 
         for (int i=0;i<15;i++) {
-            if (Parser(driver, pattern))
+            if (parser(driver, pattern))
                 return true;
             Thread.sleep(1000);
         }
         return false;
     }
 
-    private boolean Parser(AppiumDriver driver, Pattern pattern) {
+    private boolean parser(AppiumDriver driver, Pattern pattern) {
         List<LogEntry> logEntryList = driver.manage().logs().get("logcat").getAll();
         for (LogEntry logEntry : logEntryList) {
             if (logEntry.getTimestamp() > logTime.getTime()) {

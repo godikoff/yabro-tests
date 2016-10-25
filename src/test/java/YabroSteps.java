@@ -6,11 +6,14 @@ import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.annotations.Attachment;
 import ru.yandex.qatools.allure.annotations.Step;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.both;
+import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.greaterThan;
+
 
 
 public class YabroSteps {
@@ -55,7 +58,8 @@ public class YabroSteps {
 
     @Step("Log should contain Tag: {0} and String: {1}")
     public void shouldBeInLog(String logTag, String logString) throws Exception {
-        assertThat("\"" + logTag + "\" and \"" + logString + "\"" + " not found in logs", logReader.FindString(logTag, logString));
+        assertThat("\"" + logTag + "\" and \"" + logString + "\"" + " not found in logs", logReader.findString(logTag,
+                logString));
     }
 
     @Step("{0} should be displayed")
@@ -75,7 +79,8 @@ public class YabroSteps {
 
     @Step("{0} should contain {1} and {2} colors")
     public void shouldContainColors(WebElement element, Color color1, Color color2) throws Exception {
-        assertThat(color1 + " and " + color2 + " not found in " + element, elementScreenshotCollector.collect(element), both(CustomMatchers.hasColor(color1)).and(CustomMatchers.hasColor(color2)));
+        assertThat(color1 + " and " + color2 + " not found in " + element, elementScreenshotCollector.collect(element),
+                both(CustomMatchers.hasColor(color1)).and(CustomMatchers.hasColor(color2)));
     }
 
     @Step("{0} should contain text: {1}")
