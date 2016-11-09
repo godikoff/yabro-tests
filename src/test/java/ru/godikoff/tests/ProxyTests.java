@@ -46,7 +46,7 @@ public class ProxyTests {
     };
 
 
-    @Title("Проверка текста и элементов в колдунщике саджеста")
+    @Title("Проверка текста в хедере")
     @Test
     public void checkReferrerHeader() throws Exception {
         yabroSteps.click(yabroObjects.omniboxInNewTab);
