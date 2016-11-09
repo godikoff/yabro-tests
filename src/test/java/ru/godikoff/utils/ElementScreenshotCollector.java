@@ -1,3 +1,5 @@
+package ru.godikoff.utils;
+
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;

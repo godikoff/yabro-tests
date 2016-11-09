@@ -1,3 +1,5 @@
+package ru.godikoff.utils;
+
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.logging.LogEntry;
 
@@ -6,7 +8,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class LogReader {
+public class LogReader {
 
     private AppiumDriver driver;
     Date logTime = new Date();

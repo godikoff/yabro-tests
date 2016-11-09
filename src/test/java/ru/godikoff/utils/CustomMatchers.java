@@ -1,3 +1,5 @@
+package ru.godikoff.utils;
+
 import io.appium.java_client.android.AndroidElement;
 import org.hamcrest.FeatureMatcher;
 import org.hamcrest.Matcher;

@@ -1,15 +1,17 @@
+package ru.godikoff.tests;
+
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import ru.godikoff.utils.AndroidDriverRules;
+import ru.godikoff.objects.YabroObjects;
+import ru.godikoff.steps.YabroSteps;
 import ru.yandex.qatools.allure.annotations.Title;
 
 import java.awt.Color;
-import java.net.URL;
-
 
 public class YabroTests {
     private AndroidDriver driver;
@@ -18,16 +20,12 @@ public class YabroTests {
 
     @Before
     public void before() throws Exception{
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName","aphone");
-        capabilities.setCapability("appPackage", "com.yandex.browser");
-        capabilities.setCapability("appActivity", ".YandexBrowserMainActivity");
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
+        AndroidDriverRules androidDriverRules = new AndroidDriverRules();
         yabroObjects = new YabroObjects(driver);
         yabroSteps = new YabroSteps(driver);
+        driver = androidDriverRules.getDriver();
         yabroSteps.browserStart();
     }
-
 
     @Rule
     public TestWatcher testWatcher = new TestWatcher() {
@@ -86,7 +84,7 @@ public class YabroTests {
     @Test
     public void checkTextInWizardSuggest() throws Exception {
         yabroSteps.click(yabroObjects.omniboxInNewTab);
-        yabroSteps.inputText(yabroObjects.omniboxTextField, "cat");
+        yabroSteps.inputText(yabroObjects.omniboxTextField, "pogoda");
         yabroSteps.shouldNotBeDisplayed(yabroObjects.historySuggest.clockIcon);
         yabroSteps.shouldContainText(yabroObjects.wizardSuggest.wizardText, "°C");
     }

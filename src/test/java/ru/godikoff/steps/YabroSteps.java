@@ -1,8 +1,14 @@
+package ru.godikoff.steps;
+
 import com.google.common.collect.Lists;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
+import ru.godikoff.objects.YabroObjects;
+import ru.godikoff.utils.CustomMatchers;
+import ru.godikoff.utils.ElementScreenshotCollector;
+import ru.godikoff.utils.LogReader;
 import ru.yandex.qatools.allure.annotations.Attachment;
 import ru.yandex.qatools.allure.annotations.Step;
 
@@ -14,13 +20,12 @@ import static org.hamcrest.Matchers.both;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.greaterThan;
 
-
-
 public class YabroSteps {
     private LogReader logReader;
     private YabroObjects yabroObjects;
     private AndroidDriver driver;
     private ElementScreenshotCollector elementScreenshotCollector;
+
 
     public YabroSteps(AndroidDriver driver) {
         this.driver = driver;

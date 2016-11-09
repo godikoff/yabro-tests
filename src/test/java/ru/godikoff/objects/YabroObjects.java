@@ -1,3 +1,5 @@
+package ru.godikoff.objects;
+
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -36,4 +38,7 @@ public class YabroObjects {
 
     @AndroidFindBy(id = "bro_common_omnibox_text_layout")
     public List<AndroidElement> reversedSuggestList;
+
+    @AndroidFindBy(id = "bro_sentry_bar_input_blue_link")
+    public AndroidElement omniNavigationLink;
 }
