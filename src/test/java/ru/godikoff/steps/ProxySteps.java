@@ -22,21 +22,6 @@ public class ProxySteps {
     }
 
     @Step("Request to: {0} should contain text: {2} in Header: {1}")
-    public void shouldContainTextInHeader(String url, String header, String text) throws Exception {
-        Har har = proxy.getHar();
-        for (HarEntry entry : har.getLog().getEntries()) {
-            if (entry.getRequest().getUrl().contains(url)) {
-                for (HarNameValuePair headerPair : entry.getRequest().getHeaders()) {
-                    if (headerPair.getName().equals(header)) {
-                        assertThat(text + " not found in Header " + header, headerPair.getValue().contains(text));
-                        return;
-                    }
-                }
-            }
-        }
-    }
-
-    @Step("Request to: {0} should contain text: {2} in Header: {1}")
     public void containInHeader(String url, String header, String expectedValue) throws Exception {
         assertThat(expectedValue + " not found in Header " + header, requestList,
                 CustomMatchers.hasInHeaders(url, header, expectedValue));
