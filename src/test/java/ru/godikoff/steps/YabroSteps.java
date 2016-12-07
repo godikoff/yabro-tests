@@ -16,9 +16,9 @@ import java.awt.Color;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.both;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.greaterThan;
+import static org.hamcrest.Matchers.both;
 
 public class YabroSteps {
     private LogReader logReader;

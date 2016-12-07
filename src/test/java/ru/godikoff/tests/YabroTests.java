@@ -6,9 +6,9 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
-import ru.godikoff.utils.AndroidDriverRules;
 import ru.godikoff.objects.YabroObjects;
 import ru.godikoff.steps.YabroSteps;
+import ru.godikoff.utils.AndroidDriverInitializer;
 import ru.yandex.qatools.allure.annotations.Title;
 
 import java.awt.Color;
@@ -20,10 +20,10 @@ public class YabroTests {
 
     @Before
     public void before() throws Exception{
-        AndroidDriverRules androidDriverRules = new AndroidDriverRules();
+        AndroidDriverInitializer androidDriverInitializer = new AndroidDriverInitializer();
         yabroObjects = new YabroObjects(driver);
         yabroSteps = new YabroSteps(driver);
-        driver = androidDriverRules.getDriver();
+        driver = androidDriverInitializer.getDriver();
         yabroSteps.browserStart();
     }
 
