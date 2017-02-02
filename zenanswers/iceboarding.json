@@ -1,0 +1,960 @@
+{
+  "store_ttl": 72000,
+  "menu": {
+    "favorites": {
+      "icon": "https://zen.yastatic.net/zen-logos/files/images/likes.png",
+      "text": "Интересные вам источники",
+      "url": "https://gamma.zen-test.yandex.ru/menu?train=abr_full&from=abr_native&api_name=android&country_code=ru&type=liked"
+    },
+    "blocked": {
+      "icon": "https://zen.yastatic.net/zen-logos/files/images/blocks.png",
+      "text": "Заблокированные источники",
+      "url": "https://gamma.zen-test.yandex.ru/menu?train=abr_full&from=abr_native&api_name=android&country_code=ru&type=blocked"
+    },
+    "feedback": {
+      "text": "Обратная связь",
+      "url": "https://gamma.zen-test.yandex.ru/menu?train=abr_full&from=abr_native&api_name=android&country_code=ru&type=feedback"
+    }
+  },
+  "direct_ads": 0,
+  "direct_start": 0,
+  "welcome": {
+    "title": "Статьи, новости и видео на основе ваших интересов",
+    "description": "Для начала мы подобрали для вас популярные в сети публикации"
+  },
+  "ads": [],
+  "count": 20,
+  "more": {
+    "link": "https://gamma.zen-test.yandex.ru/api/v2/android/more?clid1010=2263185"
+  },
+  "items": [
+    {
+      "title": "Гаджеты Xiaomi на распродаже от Gearbest",
+      "domain": "4PDA",
+      "link": "http://4pda.ru/2017/01/24/334291/",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/236854/db_-1050430729341752280/smart_crop",
+      "text": "Популярный Интернет-магазин Gearbest объявляет о старте масштабной распродажи продукции компании Xiaomi. В акции участвуют самые разные девайсы, выпускаемые под знаменитым брендом. Например, на распродаже есть возможность приобрести со скидкой флагманский смартпэд Xiaomi Mi Note 2 Global Edition, отличающийся поддержкой всех мировых частот 4G LTE. Кроме этого, данный аппарат имеет загнутый по бокам 5,7-дюймовый OLED-дисплей и топовые технические характеристики.\nXiaomi Mi Note 2\nXiaomi Mi Note 2 на данный момент является самым продвинутым смартфоном производителя...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт 4PDA",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2F4pda.ru%2F2017%2F01%2F24%2F334291%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=0&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Мировой состав для европейского чемпионата",
+      "domain": "СПОРТ-ЭКСПРЕСС",
+      "link": "http://www.sport-express.ru/biathlon/reviews/mirovoy-sostav-dlya-evropeyskogo-chempionata-1089852/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/sport-express.ru.png?md5=3455027e2d9612a2c2362a116e64abff",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/230574/db_-814342312785103016/smart_crop",
+      "text": "В среду в польском городке Дужники-Здрой стартует очередной чемпионат Европы по биатлону. Российская команда выступит на нем одним из самых сильных составов за всю историю подобных соревнований.\nЛОГИНОВ: ИЗ ПОЛЬШИ – НА ЧЕМПИОНАТ МИРА?\nСборная России по биатлону триумфально выступает на чемпионатах Европы с незапамятных времен. Но в этот раз наша команда, можно сказать, даже неприлично сильна для турнира такого ранга. В ее составе: оба лидера промежуточных зачетов Кубка IBU, Дарья Виролайнен и Алексей Волков, обладательница второго места Анна Никулина и третьего – Александр Логинов...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт СПОРТ-ЭКСПРЕСС",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sport-express.ru%2Fbiathlon%2Freviews%2Fmirovoy-sostav-dlya-evropeyskogo-chempionata-1089852%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=1&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Skoda › Универсал Skoda Octavia Combi вышел заметно дороже лифтбека",
+      "domain": "DRIVE.RU",
+      "link": "https://www.drive.ru/news/skoda/58875b36ec05c4264800002c.html",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/196516/db_2227168322533921301/smart_crop",
+      "text": "Компания Skoda объявила о старте приёма заказов на рестайлинговое семейство Octavia. Базовая цена на лифтбек (940 000 рублей) была оглашена ещё пару недель назад, а теперь представительство выложило расценки на другие его версии (так, топовый вариант Style оценён в 1 169 000)...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт DRIVE.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.drive.ru%2Fnews%2Fskoda%2F58875b36ec05c4264800002c.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=2&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "14 фактов о легендарных фильмах, которые заставят удивиться даже киноманов",
+      "domain": "ADME",
+      "link": "https://www.adme.ru/tvorchestvo-kino/14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515/amp/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/adme.ru.png?md5=d7089b5654d70b38c4810441536a6ab0",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/40274/db_-9216451128783746541/smart_crop",
+      "text": "Мы в редакции AdMe.ru думали, что знаем все о любимых фильмах. Но натолкнувшись на историю о гангстерах и «Крестном отце», поняли, что это совсем не так.\nПоэтому мы решили собрать малоизвестные факты о знаменитых фильмах и поделиться ими с вами. Теперь вы тоже знаете все.\nВот уже 40 лет одна и та же газета кочует из одного голливудского фильма в другой, например ее можно увидеть в сериале «Женаты... с детьми», начавшемся в 1987 году, и драме 2007 года «Старикам здесь не место».\nМногие из тех, кто...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт ADME",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.adme.ru%2Ftvorchestvo-kino%2F14-faktov-o-legendarnyh-filmah-kotorye-zastavyat-udivitsya-dazhe-kinomanov-1444515%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=3&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Какие сумки будут в моде в 2017 году",
+      "domain": "ЛЕДИ.MAIL.RU",
+      "link": "https://lady.mail.ru/amp/article/493882/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/lady.mail.ru.png?md5=62e8fcce2778bcdce4f56d636b66c26f",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/249065/db_-7395966097770881366/smart_crop",
+      "text": "Во время показов сезона Весна-Лето 2017 дизайнеры впали в крайности, поскольку выпускали на подиум моделей или с совсем огромными баулами или же с крошечными сумками на цепочке, в которых тяжело представить даже телефон.\nТем, кто не смог сделать определиться с нужным размером, дизайнеры предлагают носить обе модели. Миниатюрную сумочку можно прикрепить на ручку крупной, как брелок, сведя к минимуму риск потерять в ворохе вещей самое необходимое.\nФорма\nСтрогие формы благополучно остались в прошлом...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт ЛЕДИ.MAIL.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flady.mail.ru%2Farticle%2F493882-kakie-sumki-budut-v-mode-v-2017-godu%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=4&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "«Меня свергли». В «Формуле-1» закончилась эпоха",
+      "domain": "SPORTS.RU",
+      "link": "https://www.sports.ru/tribuna/blogs/wrongturn/1165917.html",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/sports.ru.png?md5=642cb1ca383e40ea3536152f0d3f3d57",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/233051/db_6740256334467716349/smart_crop",
+      "text": "Берни Экклстоун покинул пост промоутера главной гоночной серии мира.\nЧто произошло?\nАмериканская компания Liberty Media, запустившая прошлой осенью процесс покупки «Формулы-1», наконец-то получила все необходимые разрешения от антимонопольных органов, инвесторов и ФИА и вступила во владение гоночной серией. И, как это часто бывает в США, сразу же развила бурную деятельность. В результате важных кадровых перестановок случилось то, чего многие ждали уже давно — бессменный промоутер Берни Экклстоун лишился своего поста и отправился на почетную должность пожизненного президента «Формулы-1»...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт SPORTS.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.sports.ru%2Ftribuna%2Fblogs%2Fwrongturn%2F1165917.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=5&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Новости / Адам Дженсен отправится в тюрьму в дополнении для Deus Ex: Mankind Divided / PlayGround.ru",
+      "domain": "PLAYGROUND",
+      "link": "http://www.playground.ru/news/adam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346/",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/248942/db_-2166354743044619268/smart_crop",
+      "text": "Появились подробности второго и финального дополнения для Deus Ex: Mankind Divided, получившего название A Criminal Past — «Криминальное прошлое».\nДополнение расскажет историю одной из первых миссий Дженсена для Task Force 29...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт PLAYGROUND",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.playground.ru%2Fnews%2Fadam_dzhensen_otpravitsya_v_tyurmu_v_dopolnenii_dlya_deus_ex_mankind_divided-53346%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=6&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Как действует цыганский гипноз",
+      "domain": "РУССКАЯ СЕМЕРКА",
+      "link": "http://russian7.ru/post/kak-deystvuet-cyganskiy-gipnoz/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/russian7.ru.png?md5=4993a9c45f4a4fe080454e27f6d90697",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/246252/db_5558611919560078176/smart_crop",
+      "text": "Цыганский гипноз - типичный образец нейролингвистического программирования. Ничего загадочного, магического в нем нет.\nЕсли вы уж так сильно боитесь цыганского гипноза, то можете даже посетить семинары по гипнозу, где вам все расскажут о природе транса и методах подавления центров воли человека путем захвата его внимания.\nГлавное, чего добивается любой гипнотизер – это получение так называемого раппорта, управляющего контакта. Техника цыганского гипноза основана на управлении сознанием через ваше внимание...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт РУССКАЯ СЕМЕРКА",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Frussian7.ru%2Fpost%2Fkak-deystvuet-cyganskiy-gipnoz%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=7&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "В ГМИИ имени Пушкина открылась выставка Гойи и Дали",
+      "domain": "THE VILLAGE",
+      "link": "http://www.the-village.ru/village/weekend/weekend/255601-dali",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/the-village.ru.png?md5=332c2288b8946fae311aeff01b3bc2c4",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/236854/db_9013757527955824178/smart_crop",
+      "text": "Во вторник, 24 января, в Музее имени Пушкина открылась выставка гравюр испанских художников Франсиско Гойи и Сальвадора дали «„Капричос”. Гойя и Дали». Об этом сообщается на сайте музея.\nНа выставке представлено 82 работы, по 41 гравюре от каждого художника. Серия «Капричос» Франсиско Гойи предоставлена собранием музея, серия «Капричос Гойи», которая создана Сальвадором Дали, — коллекционером Борисом Фридманом.\nВсе работы дополнены комментариями о художниках и их произведениях...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт THE VILLAGE",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.the-village.ru%2Fvillage%2Fweekend%2Fweekend%2F255601-dali&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=8&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Нужно ли хранить яйца в холодильнике",
+      "domain": "LIFEHACKER",
+      "link": "https://lifehacker.ru/2017/01/24/eggs-vs-fridge/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/lifehacker.ru.png?md5=3f51482d71bb01dbc267a0256642dd37",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/233051/db_7240675864779551324/smart_crop",
+      "text": "Яйца только прикидываются простым продуктом, а на самом деле никто даже толком не знает, как их хранить. В США держат в холодильнике, в некоторых европейских странах не заморачиваются. В России для яиц свои правила.\nЧем опасны яйца\nГлавная опасность для здоровья — это не яйца сами по себе, а бактерии сальмонеллы. Они живут в кишечнике многих теплокровных животных. Там они ведут себя мирно, а вот когда попадают в продукты, становятся опасными для человека.\nСальмонеллы вызывают серьёзные заболевания — тифы и сальмонеллёзы...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт LIFEHACKER",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Flifehacker.ru%2F2017%2F01%2F24%2Feggs-vs-fridge%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=9&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Качаем шею. Как сделать шею братухи из 90-х",
+      "domain": "СОВЕТСКИЙ СПОРТ",
+      "link": "http://www.sovsport.ru/gazeta/article-item/954931",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/196516/db_7819542553094211352/smart_crop",
+      "text": "Мышцы шеи часто обходят стороной в тренинге и зря - сильная шея спасает от травм и растяжений, помогает избавиться от головных болей, да и просто отлично выглядит. Упражнения и программа для дома и зала - в гиде от «Советского Спорта».\nМышцы шеи. Что это такое\nВ шее более 15 мышц. Они нужны, чтобы удерживать голову в горизонтальном положении и поворачивать ее. Шейные мышцы защищают позвоночник, помогают в совершении глотательных движений. Через шейный отдел проходит кровоснабжение мозга, сообщаются нервные импульсы...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт СОВЕТСКИЙ СПОРТ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.sovsport.ru%2Fgazeta%2Farticle-item%2F954931&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=10&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "ASRock продемонстрировала первую системную плату с поддержкой MXM",
+      "domain": "3DNEWS",
+      "link": "https://3dnews.ru/946302",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/196516/db_1995503672709868587/smart_crop",
+      "text": "Основная проблема сверхкомпактных ПК, претендующих на звание игровых —  отсутствие места, где можно было бы разместить мощную графическую карту. ASRock удалось решить эту проблему: новая плата этого производителя...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт 3DNEWS",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2F3dnews.ru%2F946302&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=11&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Трансферные интриги последней дозаявочной недели в Европе",
+      "domain": "ЧЕМПИОНАТ.COM",
+      "link": "https://www.championat.com/football/article-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/championat.com.png?md5=0b17cfd6387bcfd2ff1f8e89215227c3",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/244664/db_-3721554895168358528/smart_crop",
+      "text": "Через неделю в Европе закроется трансферное окно, и за это время может произойти масса всего интересного.\nСбежит ли Пайет из «Вест Хэма»?\nДимитри Пайет взбунтовался не сегодня и не вчера, но его мыльная опера продолжается. Краткое содержание предыдущих серий: французский сотрудник «Вест Хэма» отказывается выходить на работу, требует продать его на родину, Славен Билич разочарован бывшим лидером своей команды, а «Марсель» пытается воплотить желание полузащитника в жизнь. Сам же Пайет грозится чуть ли не сломать себе крестообразные связки – лишь бы не играть больше за «Вест Хэм»...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт ЧЕМПИОНАТ.COM",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fwww.championat.com%2Ffootball%2Farticle-265862-dzjuba-jaja-ture-verratti-pajet-i-drugie-zvezdy-mogut-pomenjat-klub.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=12&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "УАЗ Патриот: мы провели второй краш-тест",
+      "domain": "АВТОРЕВЮ",
+      "link": "https://autoreview.ru/news/crash-patriot-2",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/100325/db_4582397296638107878/smart_crop",
+      "text": "Мы сделали это. После того как представители УАЗа сочли наш первый краш-тест модернизированного Патриота некорректным из-за слишком высокой опорной плиты, к которой крепится деформируемый барьер, мы повторили эксперимент. И...\nВторой Патриот, как и первый, был куплен у официального дилера — в такой же комплектации, включая 18-дюймовые колеса. Краску «серебристый металлик» работникам полигона пришлось зашкурить по всей левой стороне — чтобы не бликовала при скоростной видеосъемке. А барьер полигоновцы...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт АВТОРЕВЮ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fautoreview.ru%2Fnews%2Fcrash-patriot-2&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=13&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "\"Оскар-2017\": полный список номинантов",
+      "domain": "СПЛЕТНИК",
+      "link": "http://www.spletnik.ru/kino/cinemanews/72817-oskar-2017-polnyy-spisok-nominantov.amp.html",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/spletnik.ru.png?md5=967d306fb7fed72d8873e5f78c60d784",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/196516/db_4187395647260668958/smart_crop",
+      "text": "Свершилось: номинанты на 89-ю церемонию вручения премий Американской киноакадемии объявлены! За тем, как оглашали имена претендентов на главную кинематографичекую награду в мире, вы могли следить в режиме онлайн — в нашей трансляции, а сейчас пришло время подвести итоги.\nЛидером по количеству номинаций предсказуемо стал мюзикл Дэмьена Шазелла \"Ла-Ла Ленд\" (La La Land), которому оглушительный успех сопутствует с момента премьеры на Венецианском кинофестивале — пронзительная картина о любви и славе...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт СПЛЕТНИК",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.spletnik.ru%2Fkino%2Fcinemanews%2F72817-oskar-2017-polnyy-spisok-nominantov.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=14&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Как же тебе повезло! Лили-Роуз Депп стала невестой на показе Chanel",
+      "domain": "WOMAN.RU",
+      "link": "http://www.woman.ru/fashion/nedeli-mody/article/190646/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/woman.ru.png?md5=fb68b4aec0f07c8ce2686fab57e652d2",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/246252/db_-9167968339345853166/smart_crop",
+      "text": "Третий день парижской Недели Высокой моды по традиции открыл показ новой коллекции Chanel. Уже в 10 утра около здания Гран-Пале собрались главные мировые модницы, с ног до головы одетые в роскошные наряды французского бренда...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт WOMAN.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.woman.ru%2Ffashion%2Fnedeli-mody%2Farticle%2F190646%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=15&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "В бумагах \"АЛРОСА\" сохраняется позитивная техническая картина",
+      "domain": "ФИНАМ",
+      "link": "http://www.finam.ru/analysis/marketnews/v-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000/",
+      "link_short": "",
+      "logo": "https://yastatic.net/zen-logos/files/domain-logos/finam.ru.png?md5=0337fef90fcc840b53e5095eff4965d0",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/245342/db_4224844073036708905/smart_crop",
+      "text": "Во второй половине торгов вторника российский фондовый рынок продолжил восходящую динамику. Этому способствовал возобновившийся рост рынка энергоносителей, где в преддверии данных от API, которые будут опубликованы сегодня ночью, нефть марки Brent пытается подойти к отметке 56 долларов. Также покупкам в российских активах способствовала и динамика внешних фондовых площадок. Так, в Европе основные индексы к концу дня прибавляют до 0,2%, а в США индексы Dow Jones и S&P500 поднялись после первого получаса торгов на 0,1%...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт ФИНАМ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fwww.finam.ru%2Fanalysis%2Fmarketnews%2Fv-bumagax-alrosa-soxranyaetsya-pozitivnaya-texnicheskaya-kartina-20170124-21000%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=16&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Рецензия на Resident Evil 7: Biohazard",
+      "domain": "KANOBU.RU",
+      "link": "http://kanobu.ru/reviews/retsenziya-na-resident-evil-7-biohazard-370043/",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/233051/db_-2175532479863498996/smart_crop",
+      "text": "К созданию Resident Evil 7 Capcom подошла основательно: новый движок, новые персонажи, новая перспектива, новые геймплейные механики, очередной возврат к истокам. Помогло ли это все компании возродить свой главный хоррор-сериал? Определенно да, но получилась игра все же не такой, как мы ожидали.\nОбъявление скрыто.\nResident Evil 6 хотела угодить всем и сразу – известное благое намерение, которые редко выливается во что-то хорошее. Кампания за Леона пыталась привлечь любителей классических частей: зомби, монстры, катакомбы, город в огне – вольный пересказ сразу и второй, и четвертой части...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт KANOBU.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fkanobu.ru%2Freviews%2Fretsenziya-na-resident-evil-7-biohazard-370043%2F&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=17&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "Новая радикальная гипотеза предлагает «простое объяснение темной энергии»",
+      "domain": "HI-NEWS.RU",
+      "link": "https://hi-news.ru/research-development/novaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html/amp",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/233051/db_2083321668379624960/smart_crop",
+      "text": "Десятилетиями ученые ломают головы над тем фактом, что наша Вселенная расширяется. С логической точки зрения гравитация должна притягивать галактики друг к другу, однако наблюдения 1990-х годов показали, что Вселенная не просто расширяется, она расширяется с ускоряющей тенденцией, и виной тому является так называемая темная энергия.\nТемная энергия (не путать с темной материей) – это гипотетическая сила, на которую приходится до 68,3 процента всей энергии в наблюдаемой Вселенной. И ученые считают, что эта энергия отталкивает галактики друг от друга...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт HI-NEWS.RU",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=https%3A%2F%2Fhi-news.ru%2Fresearch-development%2Fnovaya-radikalnaya-gipoteza-predlagaet-prostoe-obyasnenie-temnoj-energii.html&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=18&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    },
+    {
+      "title": "9 отличных советов родителям, которым мы всё равно не будем следовать",
+      "domain": "MEL.FM",
+      "link": "http://mel.fm/2017/01/24/useless_advice",
+      "link_short": "",
+      "logo": "",
+      "image": "https://avatars.mds.yandex.net/get-zen_doc/153162/db_-2248720703344129077/smart_crop",
+      "text": "Благодаря науке и лёгкому доступу к информации родители теперь знают почти обо всём. Как работает мозг ребёнка, как убедить его учиться, как вести себя во время детской истерики, как вырастить человека счастливым и гармоничным… Им известно даже невозможное — 33 способа уложить его спать в девять вечера. Есть лишь одна маленькая проблема: некоторым советам экспертов следовать просто невмоготу.\nНет-нет, если вы робот без страха и упрёка, с железной волей и железной ногой, то, признавая правильность некой рекомендации, вы стараетесь изменить своё поведение в соответствии с ней...",
+      "date": "",
+      "similar": {
+        "link": "https://gamma.zen-test.yandex.ru/api/v2/android/similar?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&url=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&clid1010=2263185"
+      },
+      "stats": {
+        "short": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/short?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "pull": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/pull?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/show?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "click": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/click?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "share": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/share?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185",
+        "feedback": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+      },
+      "feedback": {
+        "more": {
+          "main": true,
+          "delete": false,
+          "text": "Больше такого ",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/more?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "less": {
+          "main": false,
+          "delete": true,
+          "text": "Меньше такого",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/less?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        },
+        "block": {
+          "main": false,
+          "delete": true,
+          "text": "Заблокировать сайт MEL.FM",
+          "stat": "https://gamma.zen-test.yandex.ru/api/v2/android/stats/feedback/block?country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&link=http%3A%2F%2Fmel.fm%2F2017%2F01%2F24%2Fuseless_advice&rid=2553149934.290562.1485368438138.42945&sf=recc&dst=abr_native&pos=19&group=ru_bids_default%2Cru_experimental_snippet%2Cru_generic_medians%2Cru_semantic_duplicates_0_5%2Cru_premium5%2Cab%3Ahints%3Aone_hint_per_batch%2Cvideo_click_formula%2Cupgrade_w2v_similarities_duplicates%2Cab%3Avideo_5%3Avideo_current_click_formula_freq_015%2Cab%3Aonboarding_reranker2%3Aonboarding_reranker2_random_positions%2Ciceboarding_tc&rd=&clid1010=2263185"
+        }
+      }
+    }
+  ],
+  "iceboarding_items": [
+    {
+      "type": "grid",
+      "title": "Что вам интересно?",
+      "description": "Выберите сайты, которые вам нравятся. Дзен будет искать на них интересные вам публикации.",
+      "on_select_message": "Источник сохранен",
+      "on_error_message": "Ошибка сервера, повторите попытку позже",
+      "position": 1,
+      "sources": [
+        {
+          "source_id": "spletnik.ru",
+          "name": "СПЛЕТНИК",
+          "text_color": "#FFFFFF",
+          "background_color": "#535155",
+          "name_background_color": "#5C5A5E",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/200214/289b61e5/orig"
+        },
+        {
+          "source_id": "the-flow.ru",
+          "name": "THE-FLOW.RU",
+          "text_color": "#FFFFFF",
+          "background_color": "#000000",
+          "name_background_color": "#262626",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/201842/c520267b/orig"
+        },
+        {
+          "source_id": "russian7.ru",
+          "name": "РУССКАЯ СЕМЕРКА",
+          "text_color": "#FFFFFF",
+          "background_color": "#67AD9E",
+          "name_background_color": "#5AA696",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/200214/2a11c1db/orig"
+        },
+        {
+          "source_id": "kommersant.ru",
+          "name": "КОММЕРСАНТЪ",
+          "text_color": "#FFFFFF",
+          "background_color": "#116EA0",
+          "name_background_color": "#1277AD",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/223306/f2acc152/orig"
+        },
+        {
+          "source_id": "eurosport.ru",
+          "name": "EUROSPORT.RU",
+          "text_color": "#FFFFFF",
+          "background_color": "#13194E",
+          "name_background_color": "#1B2470",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/201842/5a34526a/orig"
+        },
+        {
+          "source_id": "money.rbc.ru",
+          "name": "РБК - ДЕНЬГИ",
+          "text_color": "#FFFFFF",
+          "background_color": "#A4CBB8",
+          "name_background_color": "#83B89E",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/200214/eb28ea4e/orig"
+        },
+        {
+          "source_id": "echo.msk.ru",
+          "name": "ЭХО МОСКВЫ",
+          "text_color": "#FFFFFF",
+          "background_color": "#3F3E3C",
+          "name_background_color": "#504F4C",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/200214/81d2ef74/orig"
+        },
+        {
+          "source_id": "gazeta.ru",
+          "name": "ГАЗЕТА.РУ",
+          "text_color": "#FFFFFF",
+          "background_color": "#68181B",
+          "name_background_color": "#821E22",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/246004/f7b60237/orig"
+        },
+        {
+          "source_id": "rbc.ru",
+          "name": "РБК",
+          "text_color": "#FFFFFF",
+          "background_color": "#118B93",
+          "name_background_color": "#139BA4",
+          "image": "https://avatars.mds.yandex.net/get-zen-logos/223306/9e4188d3/orig"
+        }
+      ],
+      "more_button": {
+        "background_color": "#0000FF",
+        "title": "Больше источников",
+        "click": "https://gamma.zen-test.yandex.ru/onboarding?train=abr_full&from=abr_native&api_name=android&country_code=ru&onboarding=1"
+      }
+    },
+    {
+      "type": "hint",
+      "title": "Настройте ленту",
+      "description": "Чтобы обучить Дзен, отмечайте источники, которые вам не подходят.",
+      "position": 4,
+      "image": "https://zen.yastatic.net/zen-logos/files/tips/abr_hints_more_less_arrow.png",
+      "background_color": "#4D000000",
+      "stats": {
+        "show": "https://gamma.zen-test.yandex.ru/api/v2/android/iceboarding/show?pos=4&country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&rid=2553149934.290562.1485368438138.42945&clid1010=2263185&type=hint_less&item_type=hint&id=hint_less"
+      }
+    }
+  ],
+  "iceboarding_stats": {
+    "show": "https://gamma.zen-test.yandex.ru/api/v2/android/iceboarding/show/bulk?pos=1&country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&rid=2553149934.290562.1485368438138.42945&clid1010=2263185&type=grid&item_type=domain",
+    "click": "https://gamma.zen-test.yandex.ru/api/v2/android/iceboarding/click?pos=1&country_code=ru&uuid=52d0702141e1e0ac2f5bd7ee95d8645d&device_id=55555555&showid=5888ec76ad7a8f066f857699&rid=2553149934.290562.1485368438138.42945&clid1010=2263185&type=grid&item_type=domain"
+  },
+  "context": {
+    "ice": true
+  },
+  "shuffler_delay": 36000000
+}

@@ -26,7 +26,6 @@ public class YabroSteps {
     private AndroidDriver driver;
     private ElementScreenshotCollector elementScreenshotCollector;
 
-
     public YabroSteps(AndroidDriver driver) {
         this.driver = driver;
         logReader = new LogReader(driver);
@@ -61,6 +60,34 @@ public class YabroSteps {
         suggestList.get(suggestIndex-1).click();
     }
 
+    @Step("swipe {0} up")
+    public void swipeUp(WebElement scrollable){
+        int elementHeight = scrollable.getSize().getHeight();
+        int elementWidth = scrollable.getSize().getWidth();
+        driver.swipe(elementWidth/2, (int)(elementHeight*0.9), elementWidth/2, (int)(elementHeight*0.1), 1000);
+    }
+
+    @Step("Open Zen")
+    public void openZen() {
+        shouldBeDisplayed(yabroObjects.zenView);
+        swipeUp(yabroObjects.broRootLayout);
+        //yabroObjects.broRootLayout.swipe(SwipeElementDirection.UP, 1000);
+    }
+
+    @Step("Scroll {0} down to {1}")
+    public void scrollDownTo(WebElement scrollable, AndroidElement elementToFind){
+        for (int count=0;count<15;count++){
+            try {
+                elementToFind.isDisplayed();
+                return;
+            }
+            catch (Exception ignore) {
+                swipeUp(scrollable);
+            }
+        }
+        shouldBeDisplayed(elementToFind);
+    }
+
     @Step("Log should contain Tag: {0} and String: {1}")
     public void shouldBeInLog(String logTag, String logString) throws Exception {
         assertThat("\"" + logTag + "\" and \"" + logString + "\"" + " not found in logs", logReader.findString(logTag,
@@ -86,6 +113,12 @@ public class YabroSteps {
     public void shouldContainColors(WebElement element, Color color1, Color color2) throws Exception {
         assertThat(color1 + " and " + color2 + " not found in " + element, elementScreenshotCollector.collect(element),
                 both(CustomMatchers.hasColor(color1)).and(CustomMatchers.hasColor(color2)));
+    }
+
+    @Step("{0} should contain {1} color")
+    public void shouldContainColor(WebElement element, Color color) throws Exception {
+        assertThat(color + " not found in " + element, elementScreenshotCollector.collect(element),
+                CustomMatchers.hasColor(color));
     }
 
     @Step("{0} should contain text: {1}")

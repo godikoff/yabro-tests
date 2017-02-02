@@ -41,4 +41,13 @@ public class YabroObjects {
 
     @AndroidFindBy(id = "bro_sentry_bar_input_blue_link")
     public AndroidElement omniNavigationLink;
+
+    @AndroidFindBy(id = "bro_root_layout")
+    public AndroidElement broRootLayout;
+
+    @AndroidFindBy(id = "bro_zen_recyclerview")
+    public AndroidElement zenView;
+
+    @AndroidFindBy(id = "bro_zen_sentry_iceboarding_card_more_button")
+    public AndroidElement iceMoreButton;
 }

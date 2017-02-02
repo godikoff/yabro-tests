@@ -1,9 +1,6 @@
 package ru.godikoff.steps;
 
 import net.lightbody.bmp.BrowserMobProxy;
-import net.lightbody.bmp.core.har.Har;
-import net.lightbody.bmp.core.har.HarEntry;
-import net.lightbody.bmp.core.har.HarNameValuePair;
 import ru.godikoff.utils.CustomMatchers;
 import ru.godikoff.utils.Request;
 import ru.yandex.qatools.allure.annotations.Step;
