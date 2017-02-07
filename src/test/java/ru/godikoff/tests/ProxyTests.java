@@ -1,8 +1,5 @@
 package ru.godikoff.tests;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import io.appium.java_client.android.AndroidDriver;
 import net.lightbody.bmp.BrowserMobProxy;
 import org.junit.Before;
@@ -18,7 +15,6 @@ import ru.godikoff.utils.Request;
 import ru.godikoff.utils.Response;
 import ru.yandex.qatools.allure.annotations.Title;
 
-import java.awt.*;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -73,16 +69,9 @@ public class ProxyTests {
     @Title("Проверка цвета More Button")
     @Test
     public void checkMoreButtonColor() throws Exception {
-        //Color iceMoreButtonColor = new Color(0, 0, 255);
         yabroSteps.openZen();
         yabroSteps.scrollDownTo(yabroObjects.zenView, yabroObjects.iceMoreButton);
-        for (Response x : responseList) {
-            if (x.httpMessageInfo.getUrl().contains("api/v2/android/export_ob")) {
-                JsonParser parser = new JsonParser();
-                JsonObject mainObject = parser.parse(x.httpMessageContents.getTextContents()).getAsJsonObject();
-                JsonArray moreButton = mainObject.getAsJsonArray("more_button");
-            }
-        }
-        //yabroSteps.shouldContainColor(yabroObjects.iceMoreButton, iceMoreButtonColor);
+        yabroSteps.shouldContainColor(yabroObjects.iceMoreButton,
+                proxySteps.getResponseIceMoreButtonColor(responseList));
     }
 }

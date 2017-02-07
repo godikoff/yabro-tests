@@ -56,13 +56,14 @@ public class BrowserProxy {
         proxy.addResponseFilter(new ResponseFilter() {
             @Override
             public void filterResponse(HttpResponse httpResponse, HttpMessageContents httpMessageContents, HttpMessageInfo httpMessageInfo) {
-                //synchronized (responseList) {
+                synchronized (responseList) {
                     Response x = new Response(httpResponse, httpMessageContents, httpMessageInfo);
-                    responseList.add(x);
-                    if (x.httpMessageInfo.getUrl().contains("api/v2/android/export_ob")) {
+                    if (x.httpMessageInfo.getUrl().contains("/api/v2/android/export_ob")) {
                         x.httpMessageContents.setTextContents(iceboarding);
+                        x.setContent(iceboarding);
                     }
-                //}
+                    responseList.add(x);
+                }
             }
         });
         return this;
