@@ -20,8 +20,7 @@ public class YabroTests {
 
     @Before
     public void before() throws Exception{
-        AndroidDriverInitializer androidDriverInitializer = new AndroidDriverInitializer();
-        driver = androidDriverInitializer.getDriver();
+        driver = new AndroidDriverInitializer().getDriver();
         yabroObjects = new YabroObjects(driver);
         yabroSteps = new YabroSteps(driver);
         yabroSteps.browserStart();
