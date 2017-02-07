@@ -1,7 +1,6 @@
 package ru.godikoff.tests;
 
 import io.appium.java_client.android.AndroidDriver;
-import net.lightbody.bmp.BrowserMobProxy;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -10,34 +9,22 @@ import org.junit.runner.Description;
 import ru.godikoff.objects.YabroObjects;
 import ru.godikoff.steps.ProxySteps;
 import ru.godikoff.steps.YabroSteps;
-import ru.godikoff.utils.BrowserProxy;
-import ru.godikoff.utils.Request;
-import ru.godikoff.utils.Response;
+import ru.godikoff.utils.AndroidDriverInitializer;
 import ru.yandex.qatools.allure.annotations.Title;
-
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ProxyTests {
     private AndroidDriver driver;
-    private BrowserMobProxy proxy;
     private YabroObjects yabroObjects;
     private YabroSteps yabroSteps;
     private ProxySteps proxySteps;
-    private List<Request> requestList;
-    private CopyOnWriteArrayList<Response> responseList;
 
 
     @Before
     public void before() throws Exception {
-        BrowserProxy browserProxy = new BrowserProxy().withIceboarding();
-        proxy = browserProxy.getProxy();
-        driver = browserProxy.getDriver();
-        requestList = browserProxy.getRequestList();
-        responseList = browserProxy.getResponseList();
+        driver = new AndroidDriverInitializer().getDriver();
         yabroObjects = new YabroObjects(driver);
         yabroSteps = new YabroSteps(driver);
-        proxySteps = new ProxySteps(proxy, requestList);
+        proxySteps = new ProxySteps(driver);
         yabroSteps.browserStart();
     }
 
@@ -50,7 +37,6 @@ public class ProxyTests {
 
         @Override
         protected void finished(Description description) {
-            proxy.stop();
             driver.quit();
         }
     };
@@ -72,6 +58,6 @@ public class ProxyTests {
         yabroSteps.openZen();
         yabroSteps.scrollDownTo(yabroObjects.zenView, yabroObjects.iceMoreButton);
         yabroSteps.shouldContainColor(yabroObjects.iceMoreButton,
-                proxySteps.getResponseIceMoreButtonColor(responseList));
+                proxySteps.getResponseIceMoreButtonColor());
     }
 }

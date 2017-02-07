@@ -24,9 +24,8 @@ public class BrowserProxy {
     private BrowserMobProxy proxy;
     private AndroidDriver driver;
 
-    public BrowserProxy() throws Exception {
-        AndroidDriverInitializer androidDriverInitializer = new AndroidDriverInitializer();
-        driver = androidDriverInitializer.getDriver();
+    public BrowserProxy(AndroidDriver driver) throws Exception {
+        this.driver = driver;
         requestList = new LinkedList<>();
         responseList = new CopyOnWriteArrayList<>();
         proxy = new BrowserMobProxyServer();
@@ -77,8 +76,5 @@ public class BrowserProxy {
     }
     public CopyOnWriteArrayList<Response> getResponseList() {
         return responseList;
-    }
-    public AndroidDriver getDriver() {
-        return driver;
     }
 }
